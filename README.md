@@ -40,7 +40,7 @@ EMPLOYEE_TURNOVER_PREDICTION/
 │   └── HR.csv
 │
 ├── images/
-│   ├── Logidtic_reg_confusion_matrix.png
+│   ├── Logistic_reg_confusion_matrix.png
 │   ├── pipeline_logistic_reg.png
 │   ├── pipeline_random_forest.png
 │   ├── Random_forest_confusion_matrix.png
@@ -116,6 +116,7 @@ We analyzed feature importance to understand the factors influencing employee tu
 
 The following visualizations are included:
 ### Pipeline Diagrams
+
 - **Logistic Regression Pipeline**  
   ![Pipeline Logistic Regression](images/pipeline_logistic_reg.png)
 
@@ -131,16 +132,13 @@ The following visualizations are included:
 
   ### Confusion Matrices
 - **Logistic Regression**  
-  ![Logistic Regression Confusion Matrix](images/Logidtic_reg_confusion_matrix.png)
+  ![Logistic Regression Confusion Matrix](images/Logistic_reg_confusion_matrix.png)
 
 - **Random Forest**  
   ![Random Forest Confusion Matrix](images/Random_forest_confusion_matrix.png)
 
 ---
 
-
----
----
 ## How to Run
 
 1. **Clone the Repository**:
