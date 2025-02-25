@@ -115,15 +115,31 @@ We analyzed feature importance to understand the factors influencing employee tu
 ## Visualisation
 
 The following visualizations are included:
-- **Confusion Matrices**:
-- Logistic Regression and Random Forest
-- **Pipeline Diagrams**:
-- Data preprocessing and model pipelines
-- **ROC Curve**:
-- Comparison of True Positive Rate vs. False Positive Rate
-- **Scaled vs Unscaled Attributes**:
-- Visualisation of feature scaling effect
+### Pipeline Diagrams
+- **Logistic Regression Pipeline**  
+  ![Pipeline Logistic Regression](images/pipeline_logistic_reg.png)
 
+- **Random Forest Pipeline**  
+  ![Pipeline Random Forest](images/pipeline_random_forest.png)
+
+---
+
+### ROC Curve
+- Comparison of True Positive Rate vs. False Positive Rate for both models.  
+  ![ROC Curve](images/ROC.png)
+
+
+  ### Confusion Matrices
+- **Logistic Regression**  
+  ![Logistic Regression Confusion Matrix](images/Logidtic_reg_confusion_matrix.png)
+
+- **Random Forest**  
+  ![Random Forest Confusion Matrix](images/Random_forest_confusion_matrix.png)
+
+---
+
+
+---
 ---
 ## How to Run
 
@@ -174,7 +190,7 @@ This project demonstrates how machine learning can be leveraged to predict emplo
 - **Eby Thomas** - Master of Data Science student at the University of Melbourne
 
 ---
-##Contact
+## Contact
 
 For any queries or collaboration, feel free to reach out:
 - **Email**: [ebykachappillil@gmail.com](mailto:ebykachappillil@gmail.com)
